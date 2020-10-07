@@ -1,0 +1,17 @@
+{
+  "name": "pl-printer-crawler",
+  "version": "1.0.0",
+  "description": "Crawler for warranty pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sitespeed.io/chromedriver": "^85.0.4183-83",
+    "express": "^4.17.1",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
