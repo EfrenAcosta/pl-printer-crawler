@@ -1,12 +1,15 @@
 # pl-printer-crawler
 
-clone the repo and run:
+clone the repo and run on local:
 
 ```
 docker-compose up -d
 ```
 
-to build the docker image.
+to build the docker image:
+```
+ docker build .
+ ```
 
 The endpoint is localhost:3001/checkwarranty/:serialNumber/:modelNumber
 
